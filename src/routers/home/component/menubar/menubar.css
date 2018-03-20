@@ -1,0 +1,95 @@
+.menu_bar{
+    background: rgba(255,255,255,0.3);
+    width:95%;
+    border:2px white solid;
+    height: 60px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto!important;
+}
+.menu_home{    
+    background: #fff;
+    width: 8%;
+    padding-top: 14px;
+    text-align: center;
+    height: 100%;
+    border-top-left-radius: 20px!important;
+    border-bottom-left-radius: 20px!important;   
+    cursor: pointer;
+}
+.menu_home:hover{
+    background: rgba(255,255,255, 0.8);
+}
+.menu_out{
+    cursor: pointer;
+    width: 8%;
+    padding-top: 14px;
+    text-align: center;
+    height: 100%;
+    border-top-right-radius: 20px!important;
+    border-bottom-right-radius: 20px!important;   
+    border-left: 1px white solid;
+}
+.menu_out:hover{
+    background: rgba(255,255,255, 0.5)
+}
+.menu_items{
+    cursor: pointer;
+    border-left: 1px white solid;
+    border-right: 1px white solid;
+    width:14%;
+    height: 100%;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 15px;    
+}
+.menu_items:hover{
+    width:14%;
+    height: 100%;
+    background: #fff;
+    transition: .5s ease;
+    color: #649A92;
+}
+#__react_bs_dd_menuItems{
+    position: relative!important;
+    font-style: normal;
+    margin-top: 15px;
+    padding: 10px 0px!important;
+    background: rgb(170,200,200)!important;
+    width: 100%!important;
+    min-width: 0px!important;
+}
+#__react_bs_dd_menuItems div{
+    background: rgb(170,200,200);
+    font-size: 16px;
+    text-align: left;
+    padding: 7px;
+    padding-left: 15px;
+    width: 100%!important;
+    color:#fff!important;
+}
+#__react_bs_dd_menuItems div a{
+    color:#2C6768;
+    font-size: 16px;
+}
+#__react_bs_dd_menuItems div a:hover{
+    color:#2C6768!important;
+    font-size: 16px;
+}
+#__react_bs_dd_menuItems div:hover{
+    background: #fff;
+    color:#2C6768!important;
+}
+#__react_bs_dd_carat{
+    display: none;
+}
+.glyphicon{
+    top:3px!important;
+}
+.__react_bs_dd_trigger{
+    margin: 0px!important;
+    padding-top: 0px!important;
+    font-size: 18px!important;
+    font-weight: normal!important;
+}

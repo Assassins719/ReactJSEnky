@@ -1,0 +1,163 @@
+h1{
+    color:white!important;
+}
+.container_user{
+    background-image: url("../../assets/imgs/loginbkg.jpg");
+    width:100%;
+    background-size: 100% 100%;    
+    text-align: center;    
+    height:100vh;
+    padding-top: 100px;
+}
+.login_container{
+    background-image: url("../../assets/imgs/loginformbkg.jpg");
+    background-size: 100% 100%;
+    margin: auto;    
+    width: 500px;
+    height :600px;
+    padding-top: 50px;
+    text-align: center;    
+}
+.login_input_form img{
+    vertical-align: sub;
+}
+.login_input_form{
+    margin: auto;
+    width: 65%;
+    padding-left: 5px;
+    border-bottom: 2px white solid;
+    text-align: left;    
+    margin-bottom: 45px;
+    height: 35px;
+
+}
+.login_input_field{
+    margin-left: 10px;
+    width: 70%;
+    font-size: 18px; 
+    color:white;   
+    outline: none;
+    background: none;
+    border: none;
+    height: 35px;  
+    padding: 0px;
+}
+.login_option_form{
+    margin: auto;
+    width: 65%;
+    padding-left: 5px;
+    border-bottom: 2px white solid;
+    text-align: left;    
+    margin-bottom: 30px;
+    height: 35px!important;
+}
+.login_option_form_bottom{
+    margin: auto!important;
+    width: 65%;
+    padding-left: 5px;
+    text-align: left;    
+    margin-bottom: 30px;
+    height: 30px;
+    margin-bottom: 30px!important;
+}
+.txt_options{
+    color: #fff;
+    font-size: 16px;
+    vertical-align: -webkit-baseline-middle;
+    padding-left: 5px;
+}
+.forgot_span{
+    width: 50%;
+    height:30px;
+}
+.button {
+display: inline-block;
+border-radius: 10px;
+background-color: rgba(162,188,203, 0.7);
+opacity: 0.5;
+border: none;
+color: #FFFFFF;
+text-align: center;
+font-size: 24px;
+font-weight: bold;
+padding: 10px;
+width: 220px;
+height: 60px;
+transition: all 0.5s;
+cursor: pointer;
+outline: none;
+margin: 5px;
+}  
+.button:hover{
+opacity: 1;
+right: 0;
+}
+/* The container */
+.container_chk {
+    vertical-align: middle;
+    position: relative;
+    padding-left: 25px;    
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: 2px;
+}
+
+/* Hide the browser's default checkbox */
+.container_chk input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background:#649A92;
+    border-radius: 3px;
+    margin-top: 2px;
+}
+
+/* On mouse-over, add a grey background color */
+.container_chk:hover input ~ .checkmark {
+    background-color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container_chk input:checked ~ .checkmark {
+    background-color: #fff;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container_chk input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container_chk .checkmark:after {
+    left: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    border-width: 0 3px 3px 0;
+    background-image: url("../../assets/icons/icon_chk.png");
+    background-size: 100% 100%
+    /* -webkit-transform: rotate(45deg); */
+    /* -ms-transform: rotate(45deg); */
+    /* transform: rotate(45deg); */
+}
